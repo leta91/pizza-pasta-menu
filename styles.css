@@ -1,0 +1,96 @@
+h1, h2, p {
+    text-align: center;
+}
+
+body { 
+    background-image: url(https://media.istockphoto.com/photos/italian-dishes-for-family-dinner-picture-id1352241211?b=1&k=20&m=1352241211&s=170667a&w=0&h=jn3yvB0A8da1YSSi_1JEfXmBHZiqi4BF8wZWbJmQVDc=);
+    font-family: Helvetica, Arial;
+}
+
+h1 {
+    color: #FF0063;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2, p {
+    color: #66BFBF;
+}
+
+h2 {
+    text-decoration: underline wavy #FF0063 4px;
+}
+
+.menu {
+    width: 70%;
+    background-color: #EAF6F6;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.menu-description {
+    text-decoration: underline overline solid #66BFBF 2px;
+    font-weight: 900;
+    display: table;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, #66BFBF, #FF0063);
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+.product {
+    text-align: left;
+    width: 75%;
+}
+
+.cost {
+    text-align: right;
+    width: 25%;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+    background: linear-gradient(to left, #FF0063, #66BFBF);
+    height: 2px;
+    border-radius: 15px;
+}
+
+.svg-image-box {
+    text-align: center;
+}
+
+#pasta-image, #pizza-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eat-at-home {
+    margin-bottom: -30px;
+    font-weight: 900;
+}
+
+.address {
+    margin-top: -30px;
+}
+
+.footer-end {
+    padding: 7px 0 10px;
+    font-size: 12px;
+    color: #FF0063; 
+}
+
+a {
+    color: #FF0063;
+    background-color: #66BFBF;
+}
